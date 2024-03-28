@@ -42,5 +42,18 @@
 #                 return mid
 #             return l
 # 
-
-
+# error recieved showed I didnt get displays of last two examples, got to rewrite 
+# array in order to reach an output of 4 and 1.
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        l=0
+        r=len(nums)-1
+        while(l<=r):
+            mid=(l+r)//2
+            if nums[mid]>=target:
+                r=mid-1
+            else:
+                l=mid+1
+        return r+1
+# took elif array out due to it returning r instread of L at the midpoint,
+    # with these changes it should only return r after the loop is completed.
