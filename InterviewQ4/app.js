@@ -37,6 +37,14 @@
 // 1 <= size <= arr.length + 1
 
 
+
+// TODO:
+// Change array legnth 
+// grab access characters 
+// put the in new array for chunck
+// call the chunck function
+
+
 // Solution
 
 /**
