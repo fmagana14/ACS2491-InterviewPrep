@@ -1,8 +1,4 @@
 
-# Code
-# Testcase
-# Test Result
-# Test Result
 # 2937. Make Three Strings Equal
 # Easy
 # Topics
